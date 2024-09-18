@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: url("https://www.spriters-resource.com/resources/sheets/97/100197.png?updated=1511741836");
+}
+
+main {
+    margin: 15% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+} 
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: rgba(99, 107, 116, 0.2) 0px 8px 24px;
+}
+
+#number {
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 12px;
+    outline: 0;
+    margin-top: 16px;
+    
+}
+
+#decrement {
+    background-color: #fbd156;
+    border: none;
+}
+
+#reset {
+    background-color: #d43c3c;
+    border: none;
+}
+
+#increment {
+    background-color: #1ca641;
+    border: none;
+}
